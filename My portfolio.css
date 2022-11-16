@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+header{
+    background: url("cover-image.png");
+    background-size: cover;
+    height: 100%;
+}
+.header-1{
+    padding: 10px 0px;
+    background-color: #394148;
+    margin-top: 0px;
+    
+}
+body{
+    background-color: #181c20;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.header-menu{
+    display: inline;
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.header-menu:hover{
+    background-color: aquamarine;
+}
+h5{
+    color: white;
+    padding-top: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-family: Roboto;
+    font-size: small;
+    font-weight: 200;
+}
+h1{
+    color: aquamarine ;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ul{
+    padding-left: 0px;
+}
+li{
+    display: inline;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+#body-1{
+    background-color: #394148;
+    text-align: center;
+    height: 450px;
+    width: 300px;
+    margin: 25px 5px 5px 50px;
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px -5px;
+    display: inline-block;
+    cursor: pointer;
+}
+.profil_pic{
+    align-items: center;
+    height: 8%;
+    width: 8%;
+    margin: 5% 0% 1% 43%;
+    border-radius: 50%;
+}
+img{
+    height: 150px;
+    width: 260px;
+    padding-top: 15px;
+    border-radius: 30px 30px 30px 30px;
+}
+#body-1:hover{
+    border: 5px inset rgb(79, 203, 77);
+}
+footer{
+    background-color: #394148;
+    height: 100px;
+    text-align: center;
+    padding: 10px 30px;
+    margin-top: 100px;
+}
+.insta-footer{
+    height: 35px;
+    width: 35px;
+}
+.github-footer{
+    height: 35px;
+    width: 35px;
+}
+.linkedin-footer{
+    height: 35px;
+    width: 35px;
+}
